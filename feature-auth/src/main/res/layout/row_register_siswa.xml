@@ -70,7 +70,7 @@
                 android:id="@+id/edt_nisn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -206,7 +206,7 @@
                 android:id="@+id/edt_umur_ayah_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="number"
                 android:maxLength="3" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -275,7 +275,7 @@
                 android:id="@+id/edt_umur_ibu_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="number"
                 android:maxLength="3" />
         </com.google.android.material.textfield.TextInputLayout>
 
