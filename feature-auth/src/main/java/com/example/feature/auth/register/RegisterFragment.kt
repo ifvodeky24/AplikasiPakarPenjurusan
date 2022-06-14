@@ -245,11 +245,11 @@ class RegisterFragment : BaseFragment<FragmentRegisterBinding>(FragmentRegisterB
                         inputLayout(R.id.til_alamat_register) {
                             isNotEmpty().description("Alamat harus diisi")
                         }
-                        spinner(R.id.spinner_kelas_register) {
-                            selection()
-                                .greaterThan(0)
-                                .description("Kelas Harus diisi")
-                        }
+//                        spinner(R.id.spinner_kelas_register) {
+//                            selection()
+//                                .greaterThan(0)
+//                                .description("Kelas Harus diisi")
+//                        }
                         inputLayout(R.id.til_tempat_lahir_register) {
                             isNotEmpty().description("Tempat lahir harus diisi")
                         }
@@ -313,6 +313,7 @@ class RegisterFragment : BaseFragment<FragmentRegisterBinding>(FragmentRegisterB
                                 asalSekolah = asalSekolah,
                                 statusAsalSekolah = statusAsalSekolah,
                                 namaAyah = namaAyah,
+                                umurAyah = umurAyah,
                                 pekerjaanAyah = pekerjaanAyah,
                                 namaIbu = namaIbu,
                                 umurIbu = umurIbu,
